@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  SwiftUIRefresher
-//
-//  Created by Rithvik Pallamreddy on 3/13/25.
-//
+
 
 import SwiftUI
 
@@ -13,7 +8,8 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, Rithvik!")
+                .padding()
         }
         .padding()
     }
