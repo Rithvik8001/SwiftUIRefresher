@@ -7,12 +7,19 @@
 
 import SwiftUI
 
-struct Text: View {
+struct TextModifier: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hey Guys this is a Text Modifier in swiftUI. ")
+            .font(.title)
+            .bold()
+            .baselineOffset(5.0)
+            .multilineTextAlignment(.center)
+            .foregroundStyle(.purple)
+            .frame(width: 300,height: 250, alignment: .topLeading)
+            
     }
 }
 
 #Preview {
-    Text()
+    TextModifier()
 }
