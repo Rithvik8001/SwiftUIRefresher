@@ -3,7 +3,7 @@ import SwiftUI
 struct FramesAndAlignment: View {
     var body: some View {
         
-        Text("Frames")
+        Text("Frames in SwiftUI")
             .font(.system(size: 45,weight: .heavy))
             .frame(maxWidth: .infinity,alignment: .topLeading)
             .padding(.horizontal,15)
