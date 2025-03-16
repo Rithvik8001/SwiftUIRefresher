@@ -15,6 +15,7 @@ struct InitsAndEnums: View {
     init(title: String, fruitsNumber: Int) {
         self.title = title
         self.fruitsNumber = fruitsNumber
+        
     }
     
     var body: some View {
@@ -34,4 +35,6 @@ struct InitsAndEnums: View {
 
 #Preview {
     InitsAndEnums(title: "Apples",fruitsNumber: 12)
+    InitsAndEnums(title: "Oranges",fruitsNumber: 24)
+    InitsAndEnums(title: "Pineapples",fruitsNumber: 123)
 }
