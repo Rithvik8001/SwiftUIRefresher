@@ -5,6 +5,7 @@ import SwiftUI
 struct ExtractingFunctionsAndViews: View {
     
     @State var bgcColor: Color = .purple
+    @State var title: String = "The Background Color is"
     
     var body: some View {
         ZStack {
@@ -20,8 +21,8 @@ struct ExtractingFunctionsAndViews: View {
     
     var contentLayer: some View {
         VStack {
-            Text("My Title")
-                .font(.largeTitle)
+            Text("\(title) : \(bgcColor)")
+                .font(.title)
                 .bold()
             
             Button {
@@ -33,6 +34,7 @@ struct ExtractingFunctionsAndViews: View {
                     .padding(.horizontal,17)
                     .background(.black)
                     .cornerRadius(5)
+                    .bold()
             }
 
         }
