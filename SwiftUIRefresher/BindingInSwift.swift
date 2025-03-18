@@ -5,6 +5,7 @@ import SwiftUI
 struct BindingInSwift: View {
     
     @State var bgcColor: Color = .purple
+    
     var body: some View {
         
         ZStack {
@@ -35,7 +36,7 @@ struct BindingView: View {
                     .bold()
                     .foregroundStyle(.white)
                     .background(.black)
-                    .cornerRadius(12)
+                    .cornerRadius(7)
             }
         }
     }
